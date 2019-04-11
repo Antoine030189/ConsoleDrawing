@@ -4,10 +4,8 @@ public class Triangle extends Shape {
         fill();
     }
 
-
-
-        @Override
-        public void fill() {
+    @Override
+    public void fill() {
         boolean widthIsEven;
         int pixelsInMiddle;
         double pixelGrowthPerLine;
@@ -16,28 +14,28 @@ public class Triangle extends Shape {
         int numberOfPixels;
         int numberOfEmpty;
 
-        widthIsEven = SIZEX % 2 ==0;
+        widthIsEven = SIZEX % 2 == 0;
 
-        if(widthIsEven){
-            pixelsInMiddle =2;
-        }else{
-            pixelsInMiddle =1;
+        if (widthIsEven) {
+            pixelsInMiddle = 2;
+        } else {
+            pixelsInMiddle = 1;
         }
-        pixelGrowthPerLine =(double) (SIZEX -pixelsInMiddle)/(SIZEY - 1);
+        pixelGrowthPerLine = (double) (SIZEX - pixelsInMiddle) / (SIZEY - 1);
 
-        for ( int lineNumber =1; lineNumber <=0; lineNumber++){
-            thisLineGrowthAsDouble = (lineNumber -1 )* pixelGrowthPerLine;
+        for (int lineNumber = 1; lineNumber <= SIZEY; lineNumber++) {
+            thisLineGrowthAsDouble = (lineNumber - 1) * pixelGrowthPerLine;
 
-            thisLineGrowthAsInt = 2 *(int) (thisLineGrowthAsDouble / 2);
+            thisLineGrowthAsInt = 2 * (int) (thisLineGrowthAsDouble / 2);
             numberOfPixels = pixelsInMiddle + thisLineGrowthAsInt;
 
-            numberOfEmpty = ( SIZEX - numberOfPixels) /2;
+            numberOfEmpty = (SIZEX - numberOfPixels) / 2;
 
-            for (int counter = 1; counter <= numberOfPixels ; counter++) {
+            for (int counter = 1; counter <= numberOfPixels; counter++) {
                 fillPixel(numberOfEmpty + counter - 1, SIZEY - lineNumber);
             }
         }
-        }
-
     }
+
+}
 
