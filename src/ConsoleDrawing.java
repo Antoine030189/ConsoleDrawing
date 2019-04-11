@@ -22,6 +22,7 @@ public class ConsoleDrawing {
 //
 //        TODO: complete this code
 //
+        // Jeffrey!!! test
 //        Canvas myCanvas = new Canvas(...)
 //        myCanvas.add(myRectangle, ...)
 //        myCanvas.add(myRectangle, ...)
@@ -30,6 +31,7 @@ public class ConsoleDrawing {
 //        System.out.println(myCanvas);
 //
 //        todo (end)
+        // antoine
 
 //        System.out.println();
 //        System.out.println("Opdracht 2-4");
