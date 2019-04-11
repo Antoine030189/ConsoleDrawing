@@ -1,11 +1,11 @@
-import java.sql.SQLOutput;
+
 
 public class ConsoleDrawing {
     public static void main(String[] args) {
 
         System.out.println("Opdracht 1-3");
         System.out.println();
-        // ik ook
+
         Rectangle myRectangle = new Rectangle(15, 7);
         System.out.println(myRectangle);
 
@@ -14,7 +14,7 @@ public class ConsoleDrawing {
 
         Triangle myTriangle = new Triangle(15, 7);
         System.out.println(myTriangle);
-// RP test1
+//
 //          TEST FINAL
 //        System.out.println();
 //        System.out.println("Opdracht 2-3");
@@ -22,7 +22,7 @@ public class ConsoleDrawing {
 //
 //        TODO: complete this code
 //
-        // Jeffrey!!! test
+
 //        Canvas myCanvas = new Canvas(...)
 //        myCanvas.add(myRectangle, ...)
 //        myCanvas.add(myRectangle, ...)
@@ -31,7 +31,7 @@ public class ConsoleDrawing {
 //        System.out.println(myCanvas);
 //
 //        todo (end)
-        // antoine
+
 
 //        System.out.println();
 //        System.out.println("Opdracht 2-4");
