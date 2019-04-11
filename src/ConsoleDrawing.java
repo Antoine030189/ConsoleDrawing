@@ -22,6 +22,7 @@ public class ConsoleDrawing {
 //
 //        TODO: complete this code
 //
+        // Jeffrey!!! test
 //        Canvas myCanvas = new Canvas(...)
 //        myCanvas.add(myRectangle, ...)
 //        myCanvas.add(myRectangle, ...)
