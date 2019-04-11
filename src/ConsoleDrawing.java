@@ -30,6 +30,7 @@ public class ConsoleDrawing {
 //        System.out.println(myCanvas);
 //
 //        todo (end)
+        // antoine
 
 //        System.out.println();
 //        System.out.println("Opdracht 2-4");
