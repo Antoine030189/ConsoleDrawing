@@ -1,4 +1,4 @@
-public class Oval extends Shape {
+public class Oval extends Shape{
 
     public Oval(int SIZEX, int SIZEY) {
         super(SIZEX, SIZEY);
@@ -20,6 +20,8 @@ public class Oval extends Shape {
                 double yOffCenter = offCenter(yCenter, SIZEY, yPixel);
                 if (xOffCenter * xOffCenter + yOffCenter * yOffCenter <= 1) {
                     fillPixel(xPixel, yPixel);
+                } else {
+                    clearPixel(xPixel, yPixel);
                 }
             }
         }
