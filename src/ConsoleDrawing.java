@@ -14,7 +14,7 @@ public class ConsoleDrawing {
 
         Triangle myTriangle = new Triangle(15, 7);
         System.out.println(myTriangle);
-//
+//          Test vanaf Desktop Jeff
 //          TEST FINAL
         System.out.println();
         System.out.println("Opdracht 2-3");
