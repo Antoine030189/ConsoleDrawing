@@ -1,4 +1,4 @@
-
+import java.awt.*;
 
 public class ConsoleDrawing {
     public static void main(String[] args) {
@@ -16,22 +16,21 @@ public class ConsoleDrawing {
         System.out.println(myTriangle);
 //
 //          TEST FINAL
-//        System.out.println();
-//        System.out.println("Opdracht 2-3");
-//        System.out.println();
+        System.out.println();
+        System.out.println("Opdracht 2-3");
+        System.out.println();
 //
-//        TODO: complete this code
+////        TODO: complete this code
+////
 //
-
-//        Canvas myCanvas = new Canvas(...)
-//        myCanvas.add(myRectangle, ...)
-//        myCanvas.add(myRectangle, ...)
-//        myCanvas.add(myRectangle, ...)
-//        myCanvas.fill(); // is dat nodig, of kan dat slimmer?
-//        System.out.println(myCanvas);
+        Canvas myCanvas = new Canvas();
+        myCanvas.add(myRectangle, 0, 0);
+        myCanvas.add(myOval, 18, 0);
+        myCanvas.add(myTriangle, 36, 0);
+        myCanvas.fill(); // is dat nodig, of kan dat slimmer?
+        System.out.println(myCanvas);
 //
 //        todo (end)
-
 
 //        System.out.println();
 //        System.out.println("Opdracht 2-4");
