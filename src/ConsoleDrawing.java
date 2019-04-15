@@ -21,15 +21,15 @@ public class ConsoleDrawing {
         System.out.println();
 //
 ////        TODO: complete this code
-////
-//
-        Canvas myCanvas = new Canvas();
+
+
+        Canvas myCanvas = new Canvas(60,10);
         myCanvas.add(myRectangle, 0, 0);
         myCanvas.add(myOval, 18, 0);
         myCanvas.add(myTriangle, 36, 0);
-        myCanvas.fill(); // is dat nodig, of kan dat slimmer?
+//        myCanvas.fill(); // is dat nodig, of kan dat slimmer?
         System.out.println(myCanvas);
-//
+
 //        todo (end)
 
 //        System.out.println();
